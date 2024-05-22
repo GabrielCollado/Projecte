@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Descargar Archivos</title>
+    <link rel="stylesheet" href="/css/styles_baixar.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Arxius disponibles</h2>
+        <ul id="llista"></ul>
+        <script src="js/llista.js"></script>
+        
+        <h2>Carpetes disponibles</h2>
+        <ul id="carpetes"></ul>
+        <script src="js/carpetes.js"></script>
+        <script src="js/selecarpetes.js"></script>
+        
+        <h2>Tria l'arxiu que vols descarregar:</h2>
+        <form id="baixar">
+            <select id="selectArxiu" class="select-file"></select>
+            <input type="submit" value="Descarregar" class="download-btn">
+        </form>
+        <script src="js/baixar.js"></script>
+        
+        <h2>Tria la carpeta que vols descarregar:</h2>
+        <form id="baixarCarpeta">
+            <select id="selectCarpeta" class="select-folder"></select>
+            <input type="submit" value="Descarregar" class="download-btn">
+        </form>
+        <script src="js/baixarCarpeta.js"></script>
+    </div>
+</body>
+</html>

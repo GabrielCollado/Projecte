@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Estilos para centrar el contenido en un recuadro en el centro */
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    padding: 40px; /* Aumentamos el padding */
+    border: 2px solid #ccc; /* Aumentamos el grosor del borde */
+    border-radius: 10px; /* Aumentamos el radio de borde */
+    background-color: #f9f9f9;
+    max-width: 400px; /* Establecemos un ancho máximo */
+    width: 100%; /* Hacemos que el ancho sea el 100% */
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de Crear Usuario */
+#creausu {
+    background-color: #007bff; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+}
+
+/* Estilo para el botón de Login */
+#login {
+    background-color: #007bff; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+}
+
+/* Estilos de hover para los botones */
+button:hover {
+    opacity: 0.8; /* Reduce la opacidad del botón al pasar el ratón */
+}

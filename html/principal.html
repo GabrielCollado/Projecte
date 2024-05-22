@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir y Descargar Archivos</title>
+    <link rel="stylesheet" href="/css/styles_principal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pujar un arxiu o carpeta:</h1>
+        <form id="pujar" enctype="multipart/form-data" action="../php/pujar.php" method="post">
+            <input type="file" id="arxiu" name="arxiu" value="Pujar Arxius" multiple>
+            <input type="submit" value="Pujar" class="upload-btn">
+        </form>
+        <h1>Baixar arxius:</h1>
+        <button type="button" id="baixar" class="download-btn">Fes click aquí per baixar aixus</button>
+    </div>
+    
+    <script>
+        var botonBaixar = document.getElementById("baixar");
+        botonBaixar.addEventListener("click", function() {
+            window.location.href = "baixar.html";
+        });
+    </script>
+</body>
+</html>
