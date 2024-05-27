@@ -1,27 +1,23 @@
-/* styles.css */
-
-/* Estilos generales */
 .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    border: 2px solid #ccc; /* Añade un borde alrededor del contenedor */
-    border-radius: 10px; /* Añade un radio de borde para suavizar los bordes */
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
 }
 
 .content-box {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f9f9f9; /* Cambia el color de fondo del recuadro de contenido */
-    border: 1px solid #ddd; /* Añade un borde alrededor del recuadro de contenido */
-    border-radius: 5px; /* Añade un radio de borde para suavizar los bordes */
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
 }
 
 h1 {
     margin-top: 0;
 }
 
-/* Estilos para el formulario de subir archivos */
 form {
     margin-bottom: 20px;
 }
@@ -36,22 +32,20 @@ form {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Cambia el color de fondo del botón de subir */
-    color: white; /* Cambia el color del texto del botón de subir */
+    background-color: #007bff;
+    color: white; 
 }
 
-/* Estilos para el botón de descargar */
 .download-btn {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Cambia el color de fondo del botón de descargar */
-    color: white; /* Cambia el color del texto del botón de descargar */
+    background-color: #007bff; 
+    color: white; 
 }
 
-/* Estilos de hover para los botones */
 .upload-btn:hover,
 .download-btn:hover {
     opacity: 0.8;
@@ -63,7 +57,7 @@ form {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9; /* Cambia el color de fondo del cuadro de elegir archivo */
-    color: #333; /* Cambia el color del texto del cuadro de elegir archivo */
+    background-color: #f9f9f9; 
+    color: #333; 
     cursor: pointer;
 }
